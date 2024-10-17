@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>AluraBooks</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">AluraBooks</h1>
+        <div class="book">
+            <h2 class="book-title">Livro 1</h2>
+            <p class="book-description">Descrição do Brothers. Uma história emocionante de dois irmãos na era Vitoriana procurando pela sua mãe desaparecida, juntos desvendarão vários mistérios em sua jornada! leia agora.</p>
+        </div>
+        <div class="book">
+            <h2 class="book-title">Livro 2</h2>
+            <p class="book-description">Descrição do Poemas. Livro de poemas para os leitores sentimentais que se conectam com belas e curtas palavras explorando o lado diverso da vida! leia agora.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: #007BFF; /* Azul de fundo */
+    border: 5px solid white; /* Borda média branca */
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title {
+    color: #003366; /* Azul escuro */
+    text-align: center;
+    font-size: 2em; /* Tamanho maior */
+    margin-bottom: 20px;
+}
+
+.book {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.book-title {
+    color: #003366; /* Azul escuro */
+    font-size: 1.5em; /* Tamanho médio */
+}
+
+.book-description {
+    color: #003366; /* Azul escuro */
+    font-size: 1em; /* Tamanho menor */
+}
